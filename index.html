@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://js.puter.com/v2/"></script>
+    <title>GASTO NA FOTO</title>
+</head>
+
+<body>
+
+    <div class="caixa-topo">
+    <p class="marca">Kadosh</p>
+    <h1>🧾 Receipt</h1>
+    <p class="cereja">Fotografe o comprovante. A IA anota pra você.</p>
+</div>
+    <div class="caixa-total">
+        <p>Total gasto</p>
+        <p class="total">R$ 0,00</p>
+        <p class="quantos">0 comprovantes lidos</p>
+    </div>
+    <label class="caixa-foto">🧾 Toque para fotografar o comprovante
+        <input class="foto" onchange="lerFoto()" type="file" accept="image/*">
+    </label>
+
+    <div class="resultado"></div>
+
+    <script src="scripts.js"></script>
+    <p class="rodape-marca">WALLACE BEZERRA · powered by IA</p>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  color: #22304a;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.caixa-topo {
+  text-align: center;
+  margin: 12px 0 20px;
+}
+
+.caixa-topo h1 {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.caixa-topo .marca {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #0f766e;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.cereja {
+  color: #6b7a94;
+  margin: 6px 0 0;
+  font-size: 13px;
+}
+
+.caixa-total {
+  background: #0f172a;
+  color: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin: 0 auto 16px;
+  text-align: center;
+}
+
+.caixa-total p:first-child {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.total {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 6px 0 4px;
+  letter-spacing: -0.5px;
+}
+
+.quantos {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.caixa-foto {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+  border: 1.5px dashed #cbd5e1;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 16px;
+  color: #475569;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.caixa-foto:hover {
+  border-color: #0f766e;
+  background: #f0fdfa;
+  color: #0f766e;
+}
+
+.foto {
+  display: none;
+}
+
+.resultado p {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 13px;
+  padding: 12px;
+}
+
+.nota-fiscal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  border: 1px solid #eef1f6;
+  animation: entrada 0.25s ease;
+}
+
+.nota-fiscal h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.nota-fiscal > p {
+  font-size: 11px;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.produtos {
+  list-style: none;
+  border-top: 1px solid #f1f3f7;
+}
+
+.produtos li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f3f7;
+  font-size: 12.5px;
+}
+
+.total-nota {
+  text-align: right;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #0f766e;
+  font-weight: 600;
+}
+
+@keyframes entrada {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.rodape-marca {
+  text-align: center;
+  font-size: 10px;
+  color: #b0b8c4;
+  margin-top: 24px;
+  letter-spacing: 0.5px;
+}
