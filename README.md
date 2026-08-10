@@ -19,6 +19,7 @@ Primeiro de muitos projetos que pretendo construir nessa nova fase. 💻
 🔗 Confira o projeto: https://wallacebezerra97.github.io/kadosh-receipt/
 
 💻 Código-fonte: https://github.com/wallacebezerra97/kadosh-receipt
+
 #TransiçãoDeCarreira #Tecnologia #InteligênciaArtificial #DesenvolvimentoWeb #JavaScript #PrimeiroProjeto
 
  'atualiza README com marca Kadosh Receipt' 
