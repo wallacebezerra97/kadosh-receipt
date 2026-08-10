@@ -1,6 +1,6 @@
 🚀 Meu primeiro projeto prático na área de tecnologia está no ar!
 
-Estou em transição de carreira para tecnologia, com foco em Inteligência Artificial, Dados e Desenvolvimento Web. E hoje quero compartilhar o primeiro passo prático dessa jornada: o Recibo AI.
+Estou em transição de carreira para tecnologia, com foco em Inteligência Artificial, Dados e Desenvolvimento Web. E hoje quero compartilhar o primeiro passo prático dessa jornada: o Kadosh Receipt.
 
 🧾 O que ele faz?
 Uma aplicação web que usa Inteligência Artificial para ler comprovantes e notas fiscais a partir de uma foto, organizando automaticamente estabelecimento, produtos, valores e forma de pagamento.
